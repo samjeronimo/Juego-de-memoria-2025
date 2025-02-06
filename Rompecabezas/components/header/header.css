@@ -1,3 +1,78 @@
-.div-header {
-    background-color: red;
+.item-header {
+    background-color: tomato;
+    padding: 0 5rem;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-header img {
+    width: 16rem;
+}
+
+.item-header .nivel-1 {
+    width: 11rem;
+    height: 4.5rem;
+    border-radius: 12px;
+    background-color: wheat;
+    border: 2px solid black;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-header .nivel-2 {
+    width: 12rem;
+    height: 4.5rem;
+    border-radius: 12px;
+    background-color: wheat;
+    border: 2px solid black;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-header .nivel-3 {
+    width: 12rem;
+    height: 4.5rem;
+    border-radius: 12px;
+    background-color: wheat;
+    border: 2px solid black;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-header .nivel-4 {
+    width: 12rem;
+    height: 4.5rem;
+    border-radius: 12px;
+    background-color: wheat;
+    border: 2px solid black;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-header .nivel-5 {
+    width: 12rem;
+    height: 4.5rem;
+    border-radius: 12px;
+    background-color: wheat;
+    border: 2px solid black;
+    font-size: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
