@@ -26,3 +26,14 @@ contenedor.appendChild(footer);
 
 
 DOM.appendChild(contenedor);
+
+//envento para cada una de las cartas
+let cargarLasCartasDOM = document.querySelectorAll('.div-item');
+console.log(cargarLasCartasDOM);
+cargarLasCartasDOM.forEach(cadaCarta => {
+
+    cadaCarta.addEventListener("click" ,()=>{
+        cadaCarta.classList.add("marcado");
+    });
+    
+});
