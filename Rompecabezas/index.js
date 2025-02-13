@@ -35,5 +35,4 @@ cargarLasCartasDOM.forEach(cadaCarta => {
     cadaCarta.addEventListener("click" ,()=>{
         cadaCarta.classList.add("marcado");
     });
-    
 });
